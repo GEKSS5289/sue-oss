@@ -1,0 +1,8 @@
+com\sue\config\CorsConfig.class
+com\sue\service\impl\OSSServiceImpl.class
+com\sue\Application.class
+com\sue\resource\FileResource.class
+com\sue\controller\BaseController.class
+com\sue\service\OSSService.class
+com\sue\controller\OSSController.class
+META-INF\spring-configuration-metadata.json

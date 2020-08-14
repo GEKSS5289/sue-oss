@@ -1,0 +1,13 @@
+server:
+  port: 8066
+spring:
+  datasource:                                           # 数据源的相关配置
+    type: com.zaxxer.hikari.HikariDataSource          # 数据源类型：HikariCP
+    driver-class-name: com.mysql.cj.jdbc.Driver          # mysql驱动
+    url: jdbc:mysql://localhost:3306/foodie-shop-dev?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+fdfs:
+  connect-timeout: 30 #连接的超时时间
+  so-timeout: 30 # 读取超时时间
+  tracker-list: 192.168.182.150:22122 #track服务所在IP和端口号
